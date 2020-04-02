@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'breaking';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Breaking-Bad.otf');
+}
+
+h1 {
+    font-family: 'breaking', serif;
+    color: dimgrey;
+    font-weight: 400;
+}
