@@ -8,7 +8,7 @@ const CardListDeath =  ({visibleDeaths, deaths}) => {
                 deaths.slice(0,visibleDeaths).map((death, i) => {
                     return (<CardDeath key={deaths[i].death_id}
                                        death={deaths[i].death}
-                                       cause={deaths[i].occupaticauseon}
+                                       cause={deaths[i].cause}
                                        responsible={deaths[i].responsible}
                                        last_words={deaths[i].last_words}/>
                     );

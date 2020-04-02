@@ -12,7 +12,7 @@ const CardList = ({visible, characters}) => {
                                   status={characters[i].status}
                                   birthday={characters[i].birthday}
                                   image={characters[i].img}
-                                  portrayer={characters[i].portrayed}/>
+                                  portrayed={characters[i].portrayed}/>
                     );
                 })
             }
